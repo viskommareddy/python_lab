@@ -32,7 +32,7 @@ git add .          -- to  add all the files
 
 to commit these files to the staging area,
 
-git commit -m "(message)" -- to commit the files ot the staging area, along with a message - commit is nothing
+git commit -m "(message)" -- to commit the files to the local repository, along with a message - commit is nothing
                             but a save point and it is like submitting the changes now.
 git log -- to see what commits were made
 
