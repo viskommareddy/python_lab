@@ -1,0 +1,44 @@
+                                    
+                                    version control
+
+    if working on a project / program /code and to which we save it at multiple save points,these save points
+are the different versions of the code/program.SUppose, in case the final code whichn is finished turned out 
+to be wrong, we dont need to develop it from scratch. Instead, we can start from a particular version(save point)
+
+    note that, the current version can also be compared with the previous versions to reflect the changes.
+and we can choose any version which we want to work upon and it doesn't need to be the immediate previous one.
+
+            command lines
+
+cd(directory name)              -- is used to change the current directory
+mkdir(directory name)           -- is used to create a directory
+rmdir(directory name)           -- is used to remove a directory
+ls                              -- lists all the contents inside the current directory
+ls -a                           -- it gives the hidden files too
+git init                        -- initializes an empty repository inside the directory
+
+once the files are created in the working directory, inorder to start tracking the changes, they need to be
+moved to the staging directory which is an intermediate place to choose which files in the working directory
+are to be commited
+
+to see wha tare currently inside the staging directory, the below command is helpful
+
+git status -- this shows the untracked files inside the working directory and not yet in the staging area
+
+inorder to add those files to the staging directory and start tracking changes, we need to use the below
+
+git add (file name)-- to add the files to the staging area.
+git add .          -- to  add all the files 
+
+to commit these files to the staging area,
+
+git commit -m "(message)" -- to commit the files ot the staging area, along with a message - commit is nothing
+                            but a save point and it is like submitting the changes now.
+git log -- to see what commits were made
+
+
+
+
+
+
+
