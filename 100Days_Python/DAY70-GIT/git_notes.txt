@@ -36,7 +36,11 @@ git commit -m "(message)" -- to commit the files to the local repository, along 
                             but a save point and it is like submitting the changes now.
 git log -- to see what commits were made
 
+git diff(file name) -- gives the changes--  deleted lines in red and added lines in green
 
+if we want to restore the previous version of a file which is commited, we can do as below
+
+git checkout(filename) -- this restores the file as it is before commiting, that is the last checkpoint
 
 
 
