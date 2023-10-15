@@ -32,15 +32,15 @@ git add .          -- to  add all the files
 
 to commit these files to the staging area,
 
-git commit -m "(message)" -- to commit the files to the local repository, along with a message - commit is nothing
+git commit -m "(message)" -- to commit the files ot the staging area, along with a message - commit is nothing
                             but a save point and it is like submitting the changes now.
 git log -- to see what commits were made
 
-git diff(file name) -- gives the changes--  deleted lines in red and added lines in green
+git remote add origin (git hub url)-- to add the remote repository
 
-if we want to restore the previous version of a file which is commited, we can do as below
+git push -u <remote name> <branch name>
 
-git checkout(filename) -- this restores the file as it is before commiting, that is the last checkpoint
+
 
 
 
