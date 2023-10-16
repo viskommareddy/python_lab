@@ -33,7 +33,5 @@ my_function(4) # this assigns the value 4 to the a
 
 myfunction(4,5) # this assigns the value 4 to a and changes the value of b to 5
 
-
-
 """
 
