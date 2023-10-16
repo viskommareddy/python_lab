@@ -43,9 +43,9 @@ we restore the immediate previous version of the file even afte commiting,by usi
 
 git checkout (filename) -- the previous version can be restored from the repository even after commiting
 
-git remote add origin (git hub url)-- to add the remote repository
+git remote add origin (git hub repo url)-- to add the remote repository to the git
 
-git push -u <remote name> <branch name>
+git push -u <remote name> <branch name> -- to push the commits to the remote repository
 
 
 
