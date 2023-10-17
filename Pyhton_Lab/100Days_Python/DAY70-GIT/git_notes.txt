@@ -1,0 +1,87 @@
+                                    
+                                    version control
+
+    if working on a project / program /code and to which we save it at multiple save points,these save points
+are the different versions of the code/program.SUppose, in case the final code whichn is finished turned out 
+to be wrong, we dont need to develop it from scratch. Instead, we can start from a particular version(save point)
+
+    note that, the current version can also be compared with the previous versions to reflect the changes.
+and we can choose any version which we want to work upon and it doesn't need to be the immediate previous one.
+
+            command lines
+
+cd(directory name)              -- is used to change the current directory
+mkdir(directory name)           -- is used to create a directory
+rmdir(directory name)           -- is used to remove a directory
+ls                              -- lists all the contents inside the current directory
+ls -a                           -- it gives the hidden files too
+git init                        -- initializes an empty repository inside the directory
+
+once the files are created in the working directory, inorder to start tracking the changes, they need to be
+moved to the staging directory which is an intermediate place to choose which files in the working directory
+are to be commited
+
+to see what are currently inside the staging directory, the below command is helpful
+
+git status -- this shows the untracked files inside the working directory and not yet in the staging area
+
+inorder to add those files to the staging directory and start tracking changes, we need to use the below
+
+git add (file name)-- to add the files to the staging area.
+git add .          -- to  add all the files 
+
+to commit these files to the staging area,
+
+git commit -m "(message)" -- to commit the files ot the staging area, along with a message - commit is nothing
+                             but a save point and it is like submitting the changes now.
+git log -- to see what commits were made
+
+git diff (filename)-- gives the difference between the old and new versions-- added lines in green and 
+                      deleted lines in red 
+
+we restore the immediate previous version of the file even afte commiting,by using,
+
+git checkout (filename) -- the previous version can be restored from the repository even after commiting
+
+git remote add origin (git hub repo url)-- to add the remote repository to the git
+
+git push -u <remote name> <branch name> -- to push the commits to the remote repository
+or 
+git push -U origin master   # remote repo pseudo name , master is the branch name
+
+pull the latest updates to the local from remote
+
+git pull
+
+git branch <branch name> -- to create a local branch
+
+git checkout <branch name to switch> -- to switch to a branch from another branch
+
+push the new branch to remote:
+ 
+git push
+
+delete branch in local: 
+					
+git branch -d<branch name>
+
+delete branch in remote: 
+
+git push orgin --delete<branch name>
+
+add changes to the branch:
+
+git add <branch name>
+
+add changes to all the respectivr branches
+
+git add .
+
+commit changes to branch:
+					
+git commit -m <commit message>
+
+
+
+
+

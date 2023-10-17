@@ -1,0 +1,4 @@
+                                            Module
+Random is a module created by python.
+We can create our own modules too.
+note that never keep the module name as the file name you are working as it interprets as if you are importing the file as module.
